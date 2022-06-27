@@ -12,5 +12,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 8vw;
+}
+
+.lendsqrLeft {
+  padding: 0;
 }
 /*# sourceMappingURL=logIn.css.map */

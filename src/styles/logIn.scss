@@ -36,8 +36,10 @@ body {
             font-weight: 900;
         }
     }
-}
+}//end styling for fiirst/left part of the page
 
+
+//styling the other/right part of the page
 .form-container {
     width:45%;
     height:80vh;
@@ -131,6 +133,7 @@ body {
          
 }
 
+//styles for tablets and mini-laptops
 @media screen and (max-width: 768px) {
     body {
         flex-direction: column;
@@ -156,6 +159,8 @@ body {
     }
 }
 
+
+//styles for mobiles sreens
 @media screen and (max-width:420px) {
     .form-container {
         padding: 6rem 2rem;

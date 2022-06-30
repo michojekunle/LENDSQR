@@ -133,6 +133,10 @@ body {
   cursor: pointer;
 }
 
+.form-container .inputs .password-container #pswHide {
+  display: none;
+}
+
 .form-container .inputs span, .form-container .inputs p > a {
   color: #39cdcc;
 }

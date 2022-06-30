@@ -1,11 +1,21 @@
-const pswStatus = document.querySelector('#pswStatus');
+const pswShow = document.querySelector('span#pswShow');
+const pswHide = document.querySelector('span#pswHide');
 const passwordInput = document.querySelector('.password-container input')
-pswStatus.addEventListener('click', togglePasswordVisibility());
 
-function togglePasswordVisibility() {
-    if(passwordInput.type = 'password') {
+pswShow.addEventListener('click', () => {
         passwordInput.type = 'text';
-    } else  {
-        passwordInput.type = 'password';
-    };
-};
+        console.log(passwordInput.type);
+        pswShow.style.display = 'none';
+        pswHide.style.display = 'flex';
+        
+});
+
+pswHide.addEventListener('click', () => {
+    passwordInput.type = 'password';
+    console.log(passwordInput.type);
+    pswShow.style.display = 'flex';
+    pswHide.style.display = 'none';
+});
+
+
+// console.log(passwordInput.type)

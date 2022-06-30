@@ -1,3 +1,13 @@
+/*---importing styles for header and aside---*/
+
+//import header style
+@import 'header-style' ;
+
+//import aside style
+
+
+
+//general styles
 *{
     box-sizing: border-box;
     margin:0;
@@ -6,8 +16,4 @@
 
 body {
     height: auto;
-}
-
-header {
-    
 }

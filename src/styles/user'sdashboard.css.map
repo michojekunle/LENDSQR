@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAC,CAAC;EACR,WAAW,EAAE,oBAAoB;CACpC;;AAED,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;CACf",
+    "mappings": "AAAA,+CAA+C;AAU/C,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAC,CAAC;EACR,WAAW,EAAE,oBAAoB;CACpC;;AAED,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "user'sdashboard.scss"
+        "user'sdashboard.scss",
+        "_header-style.scss"
     ],
     "names": [],
     "file": "user'sdashboard.css"

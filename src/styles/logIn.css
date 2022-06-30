@@ -5,6 +5,10 @@
   font-family: 'Nunito', sans-serif;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,5 +21,134 @@ body {
 
 .lendsqrLeft {
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70vh;
+  width: 45%;
+}
+
+.lendsqrLeft .brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lendsqrLeft .brand-logo span {
+  font-size: 3rem;
+  padding-left: .5rem;
+  color: #213f7d;
+  font-weight: 900;
+}
+
+.form-container {
+  width: 45%;
+  height: 70vh;
+  padding: 0 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-container form {
+  width: 100%;
+}
+
+.form-container form .welcome h1 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+  color: #213f7d;
+}
+
+.form-container form .welcome p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 27px;
+  color: #213f7d;
+  margin-bottom: 50px;
+}
+
+.form-container .inputs input {
+  width: 100%;
+  padding: 1.2rem .8rem;
+  border-radius: 5px;
+  margin: 1.3rem auto;
+  outline: none;
+  color: #39cdcc;
+  font-size: 1.5rem;
+  background: #FFFFFF;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+}
+
+.form-container .inputs input::-webkit-input-placeholder {
+  color: rgba(84, 95, 125, 0.5);
+}
+
+.form-container .inputs input:-ms-input-placeholder {
+  color: rgba(84, 95, 125, 0.5);
+}
+
+.form-container .inputs input::-ms-input-placeholder {
+  color: rgba(84, 95, 125, 0.5);
+}
+
+.form-container .inputs input::placeholder {
+  color: rgba(84, 95, 125, 0.5);
+}
+
+.form-container .inputs input:focus {
+  border-color: #39cdcc;
+}
+
+.form-container .inputs .password-container {
+  position: relative;
+}
+
+.form-container .inputs .password-container .pswStatus {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  padding: 1.3rem .8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.form-container .inputs span, .form-container .inputs p {
+  color: #39cdcc;
+}
+
+.form-container .inputs p {
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.form-container .inputs #submit {
+  background-color: #39cdcc;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=logIn.css.map */

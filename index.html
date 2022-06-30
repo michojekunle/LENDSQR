@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/logIn.css">
+    <link rel="stylesheet" href="./src/styles/logIn.css">
     <title>Lendsqr | Log In</title>
 </head>
 <body>
@@ -15,24 +15,29 @@
     <div class="lendsqrLeft">
         <div class="brand-logo">
             <img src="./images/Union.svg">
-            <h1>lendsqr</h1>    
+            <span>lendsqr</span>    
         </div>
 
         <div class="imagePablo">
             <img src="./images/pablo-sign-in 1.svg">
         </div>
     </div>
-    <form action="">
-        <div class="welcome">
-            <h1>Welcome!</h1>
-            <p>Enter Details to log in</p>
-        </div>
-        <div class="inputs">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <p>forgot Password?</p>
-            <input type="submit" value="LOG IN">
-        </div>
-    </form>
+    <div class="form-container">
+        <form action="GET">
+            <div class="welcome">
+                <h1>Welcome!</h1>
+                <p>Enter Details to log in</p>
+            </div>
+            <div class="inputs">
+                <input type="email" placeholder="Email" required>
+                <div class="password-container">
+                    <input type="password" placeholder="Password" required>
+                    <span class="pswStatus" id="pswStatus">Show</span>
+                </div>
+                <p>forgot password?</p>
+                <input id="submit" type="submit" value="LOG IN">
+            </div>
+        </form>
+    </div>
 </body>
 </html>

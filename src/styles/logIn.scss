@@ -1,16 +1,125 @@
+// general styles
 * {
     box-sizing: border-box;
     margin:0;
     font-family: 'Nunito', sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+// styling the main container(the body)
 body {
     display: flex;
     justify-content: space-between;
     padding: 8vw;
 }
 
+//styling the left/first part of the page
 .lendsqrLeft {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    width:45%;
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 3rem;
+            padding-left: .5rem;
+            color: rgba(33, 63, 125, 1);
+            font-weight: 900;
+        }
+    }
+}
+
+.form-container {
+    width:45%;
+    height:70vh;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    form {
+        width:100%;
+        .welcome {
+            h1 {
+                font-size: 4rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 55px;
+                color: rgba(33, 63, 125, 1);
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 27px;
+                color: rgba(33, 63, 125, 1);
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .inputs {
+        input {
+            width:100%;
+            padding: 1.2rem .8rem;
+            border-radius: 5px;
+            margin: 1.3rem auto;
+            outline: none;
+            color: rgba(57, 205, 204, 1);
+            font-size: 1.5rem;
+            background: #FFFFFF;
+            border: 2px solid rgba(84, 95, 125, 0.15);
+        }
+
+        input::placeholder {
+            color: rgba(84, 95, 125, 0.5);
+        }
+
+        input:focus {
+            border-color:rgba(57, 205, 204, 1);   
+        }
+
+        .password-container {
+            position: relative;
+
+            .pswStatus {
+                position: absolute;
+                top:12px;
+                right:5px;
+                padding: 1.3rem .8rem;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+        }
+
+        span, p {
+            color:rgba(57, 205, 204, 1);
+        }
+
+        p {
+            cursor: pointer;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        #submit {
+            background-color: rgba(57, 205, 204, 1);
+            color: #FFFFFF;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            margin-top: 3rem;
+        }
+    }
+         
 }
 

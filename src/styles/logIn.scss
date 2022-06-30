@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70vh;
+    height: 75vh;
     width:45%;
 
     .brand-logo {
@@ -40,8 +40,8 @@ body {
 
 .form-container {
     width:45%;
-    height:70vh;
-    padding: 0 6rem;
+    height:80vh;
+    padding:6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +62,8 @@ body {
                 font-size: 1.4rem;
                 line-height: 27px;
                 color: rgba(33, 63, 125, 1);
-                margin-bottom: 50px;
+                margin-bottom: 35px;
+                padding-left: 5px;
             }
         }
     }
@@ -112,6 +113,7 @@ body {
         p {
             font-size: 1.2rem;
             text-transform: uppercase;
+            margin-top: 8px;
             a {
                 text-decoration: none;
             }
@@ -127,5 +129,9 @@ body {
         }
     }
          
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 

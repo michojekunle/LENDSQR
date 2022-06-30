@@ -31,7 +31,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 70vh;
+  height: 75vh;
   width: 45%;
 }
 
@@ -53,8 +53,8 @@ body {
 
 .form-container {
   width: 45%;
-  height: 70vh;
-  padding: 0 6rem;
+  height: 80vh;
+  padding: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +85,8 @@ body {
   font-size: 1.4rem;
   line-height: 27px;
   color: #213f7d;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
+  padding-left: 5px;
 }
 
 .form-container .inputs input {
@@ -144,6 +145,7 @@ body {
 .form-container .inputs p {
   font-size: 1.2rem;
   text-transform: uppercase;
+  margin-top: 8px;
 }
 
 .form-container .inputs p a {

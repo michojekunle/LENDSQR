@@ -1,3 +1,14 @@
 //declaring variables for colors
 $color--1:rgba(57, 205, 204, 1);
-$color--1:rgba(33, 63, 125, 1);
+$color--2:rgba(33, 63, 125, 1);
+$color--3:#ffffff;
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 75px;
+    background:$color--3;
+    box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}

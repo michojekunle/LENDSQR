@@ -141,7 +141,13 @@ body {
         width:100%;
         height: auto;
 
-        
+        .imagePablo {
+            width:100%;
+            margin-top: 40px;
+            img {
+                width: 100%;
+            }
+        }
     }
 
     .form-container {
@@ -150,3 +156,8 @@ body {
     }
 }
 
+@media screen and (max-width:420px) {
+    .form-container {
+        padding: 6rem 2rem;
+    }    
+}

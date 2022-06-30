@@ -173,9 +173,22 @@ body {
     width: 100%;
     height: auto;
   }
+  .lendsqrLeft .imagePablo {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .lendsqrLeft .imagePablo img {
+    width: 100%;
+  }
   .form-container {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form-container {
+    padding: 6rem 2rem;
   }
 }
 /*# sourceMappingURL=logIn.css.map */

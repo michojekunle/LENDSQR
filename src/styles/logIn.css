@@ -160,4 +160,20 @@ body {
   cursor: pointer;
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 6vw;
+  }
+  .lendsqrLeft {
+    width: 100%;
+  }
+  .form-container {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=logIn.css.map */

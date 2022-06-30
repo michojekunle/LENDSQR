@@ -132,6 +132,17 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    
+    body {
+        flex-direction: column;
+        padding: 6vw;
+    }
+
+    .lendsqrLeft {
+        width:100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
 }
 

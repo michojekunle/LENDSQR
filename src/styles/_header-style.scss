@@ -30,14 +30,45 @@ header {
     }
 
     .search-bar {
-        width:50%;
+        width:62%;
         margin-left: 5rem;
         display: flex;
         align-content: start;
 
         form {
-            
+            position: relative;
+            width:300px;
+            display: flex;
+            align-items: center;
+            input {
+                width: 100%;
+                background: #FFFFFF;
+                border: 2px solid rgba(0, 0, 0, 0.04);
+                border-radius: 8px;
+                padding: .5rem 1rem;
+                outline: none;
+            }
+
+            button {
+                position: absolute;
+                padding: .5rem .8rem;
+                right: 0;
+                border-radius: 0 8px 8px 0;
+                background: $color--1;
+                outline: none;
+                border: 3px solid $color--1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
+    }
+
+    .users {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 }
 

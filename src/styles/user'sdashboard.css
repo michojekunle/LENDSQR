@@ -36,13 +36,64 @@ header .brand-logo span {
 }
 
 header .search-bar {
-  width: 50%;
+  width: 62%;
   margin-left: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-line-pack: start;
       align-content: start;
+}
+
+header .search-bar form {
+  position: relative;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .search-bar form input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  outline: none;
+}
+
+header .search-bar form button {
+  position: absolute;
+  padding: .5rem .8rem;
+  right: 0;
+  border-radius: 0 8px 8px 0;
+  background: #39cdcc;
+  outline: none;
+  border: 3px solid #39cdcc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 * {

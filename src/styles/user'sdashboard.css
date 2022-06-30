@@ -36,7 +36,7 @@ header .brand-logo span {
 }
 
 header .search-bar {
-  width: 62%;
+  width: 60%;
   margin-left: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,6 +94,29 @@ header .users {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+header .users a {
+  margin-right: 40px;
+  color: #213f7d;
+  font-size: 1.5rem;
+}
+
+header .users img {
+  margin-right: 25px;
+}
+
+header .users .avatar {
+  margin-right: 8px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+header .users select {
+  border: none;
+  outline: none;
+  color: #213f7d;
+  font-size: 1.5rem;
 }
 
 * {

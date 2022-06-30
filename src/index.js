@@ -17,5 +17,14 @@ pswHide.addEventListener('click', () => {
     pswHide.style.display = 'none';
 });
 
+/*
+const book = new Book(titleInput.value, authorInput.value, isbnInput.value); 
+
+
+
+
+
+*/
+
 
 // console.log(passwordInput.type)

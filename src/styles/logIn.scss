@@ -36,7 +36,7 @@ body {
             font-weight: 900;
         }
     }
-}//end styling for fiirst/left part of the page
+}//end styling for first/left part of the page
 
 
 //styling the other/right part of the page
@@ -48,9 +48,10 @@ body {
     flex-direction: column;
     justify-content: center;
 
+    //form styles
     form {
         width:100%;
-        .welcome {
+        .welcome { 
             h1 {
                 font-size: 4rem;
                 font-style: normal;
@@ -70,6 +71,7 @@ body {
         }
     }
 
+    //input styles
     .inputs {
         input {
             width:100%;
@@ -129,9 +131,8 @@ body {
             cursor: pointer;
             margin-top: 3rem;
         }
-    }
-         
-}
+    }         
+}//end form styles
 
 //styles for tablets and mini-laptops
 @media screen and (max-width: 768px) {

@@ -7,12 +7,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 0 25px;
   height: 75px;
   background: #ffffff;
@@ -27,6 +25,7 @@ header .brand-logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 200px;
 }
 
 header .brand-logo span {
@@ -34,6 +33,16 @@ header .brand-logo span {
   padding-left: .5rem;
   color: #213f7d;
   font-weight: 900;
+}
+
+header .search-bar {
+  width: 50%;
+  margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: start;
 }
 
 * {

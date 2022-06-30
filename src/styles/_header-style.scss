@@ -3,12 +3,30 @@ $color--1:rgba(57, 205, 204, 1);
 $color--2:rgba(33, 63, 125, 1);
 $color--3:#ffffff;
 
+//general styling 
+html {
+    font-size: 62.5%;
+}
+
 header {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 25px;
     height: 75px;
     background:$color--3;
     box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 3rem;
+            padding-left: .5rem;
+            color: rgba(33, 63, 125, 1);
+            font-weight: 900;
+        }
+    }
 }
+

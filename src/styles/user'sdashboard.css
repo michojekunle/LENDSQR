@@ -1,4 +1,8 @@
 /*---importing styles for header and aside---*/
+html {
+  font-size: 62.5%;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,11 +13,27 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 25px;
   height: 75px;
   background: #ffffff;
   -webkit-box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
           box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+
+header .brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .brand-logo span {
+  font-size: 3rem;
+  padding-left: .5rem;
+  color: #213f7d;
+  font-weight: 900;
 }
 
 * {

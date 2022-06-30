@@ -101,14 +101,16 @@ body {
             }
         }
 
-        span, p {
+        span, p>a {
             color:rgba(57, 205, 204, 1);
         }
 
         p {
-            cursor: pointer;
             font-size: 1.2rem;
             text-transform: uppercase;
+            a {
+                text-decoration: none;
+            }
         }
 
         #submit {

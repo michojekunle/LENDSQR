@@ -133,14 +133,17 @@ body {
   cursor: pointer;
 }
 
-.form-container .inputs span, .form-container .inputs p {
+.form-container .inputs span, .form-container .inputs p > a {
   color: #39cdcc;
 }
 
 .form-container .inputs p {
-  cursor: pointer;
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+
+.form-container .inputs p a {
+  text-decoration: none;
 }
 
 .form-container .inputs #submit {

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,+CAA+C;AAe/C,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAC,CAAC;EACR,WAAW,EAAE,oBAAoB;CACpC;;AAED,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;CACf",
+    "mappings": "AAAA,+CAA+C;AAkB/C,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EACtB,MAAM,EAAC,CAAC;EACR,WAAW,EAAE,oBAAoB;CACpC;;AAED,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;CACf",
     "sources": [
         "user'sdashboard.scss",
         "_header-style.scss",

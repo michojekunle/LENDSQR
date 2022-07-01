@@ -1,8 +1,7 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 html {
@@ -10,44 +9,27 @@ html {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 8vw;
 }
 
 .lendsqrLeft {
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   height: 75vh;
   width: 45%;
 }
-
 .lendsqrLeft .brand-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .lendsqrLeft .brand-logo span {
   font-size: 3rem;
-  padding-left: .5rem;
-  color: #213f7d;
+  padding-left: 0.5rem;
+  color: rgb(33, 63, 125);
   font-weight: 900;
 }
 
@@ -55,105 +37,73 @@ body {
   width: 45%;
   height: 80vh;
   padding: 6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .form-container form {
   width: 100%;
 }
-
 .form-container form .welcome h1 {
   font-size: 4rem;
   font-style: normal;
   font-weight: 900;
   line-height: 55px;
-  color: #213f7d;
+  color: rgb(33, 63, 125);
 }
-
 .form-container form .welcome p {
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 27px;
-  color: #213f7d;
+  color: rgb(33, 63, 125);
   margin-bottom: 35px;
   padding-left: 5px;
 }
-
 .form-container .inputs input {
   width: 100%;
-  padding: 1.2rem .8rem;
+  padding: 1.2rem 0.8rem;
   border-radius: 5px;
   margin: 1.3rem auto;
   outline: none;
-  color: #39cdcc;
+  color: rgb(57, 205, 204);
   font-size: 1.5rem;
   background: #FFFFFF;
   border: 2px solid rgba(84, 95, 125, 0.15);
 }
-
-.form-container .inputs input::-webkit-input-placeholder {
-  color: rgba(84, 95, 125, 0.5);
-}
-
-.form-container .inputs input:-ms-input-placeholder {
-  color: rgba(84, 95, 125, 0.5);
-}
-
-.form-container .inputs input::-ms-input-placeholder {
-  color: rgba(84, 95, 125, 0.5);
-}
-
 .form-container .inputs input::placeholder {
   color: rgba(84, 95, 125, 0.5);
 }
-
 .form-container .inputs input:focus {
-  border-color: #39cdcc;
+  border-color: rgb(57, 205, 204);
 }
-
 .form-container .inputs .password-container {
   position: relative;
 }
-
 .form-container .inputs .password-container .pswStatus {
   position: absolute;
   top: 12px;
   right: 5px;
-  padding: 1.3rem .8rem;
+  padding: 1.3rem 0.8rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
-
 .form-container .inputs .password-container #pswHide {
   display: none;
 }
-
 .form-container .inputs span, .form-container .inputs p > a {
-  color: #39cdcc;
+  color: rgb(57, 205, 204);
 }
-
 .form-container .inputs p {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin-top: 8px;
 }
-
 .form-container .inputs p a {
   text-decoration: none;
 }
-
 .form-container .inputs #submit {
-  background-color: #39cdcc;
+  background-color: rgb(57, 205, 204);
   color: #FFFFFF;
   font-size: 1.2rem;
   border: none;
@@ -163,12 +113,10 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 6vw;
   }
+
   .lendsqrLeft {
     width: 100%;
     height: auto;
@@ -180,15 +128,14 @@ body {
   .lendsqrLeft .imagePablo img {
     width: 100%;
   }
+
   .form-container {
     width: 100%;
     height: auto;
   }
 }
-
 @media screen and (max-width: 420px) {
   .form-container {
     padding: 6rem 2rem;
   }
-}
-/*# sourceMappingURL=logIn.css.map */
+}/*# sourceMappingURL=logIn.css.map */

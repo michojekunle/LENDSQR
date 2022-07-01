@@ -194,13 +194,15 @@ html {
 }
 
 aside {
+  margin-top: 80px;
   width: 250px;
   background: #fff;
   position: absolute;
   z-index: 0;
   left: 0;
   top: 0;
-  min-height: 100vh;
+  height: auto;
+  padding-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,6 +215,7 @@ aside {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: left;
+  overflow-y: scroll;
 }
 
 aside select, aside select:focus {
@@ -221,7 +224,7 @@ aside select, aside select:focus {
   outline: none;
   color: #213f7d;
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 30px;
   cursor: pointer;
 }
 
@@ -243,7 +246,6 @@ aside h4.title {
   font-size: 1.3rem;
   color: #213f7d;
   font-weight: 700;
-  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -266,6 +268,21 @@ aside a {
 aside p:hover, aside p:focus {
   background-color: rgba(136, 136, 255, 0.6);
   border-radius: 5px;
+}
+
+aside::-webkit-scrollbar {
+  width: .4em;
+}
+
+aside::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  opacity: .2;
 }
 
 * {

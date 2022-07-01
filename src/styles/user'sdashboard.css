@@ -4,83 +4,188 @@ html {
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 25px;
   height: 75px;
   background: #ffffff;
-  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+          box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
   z-index: 9;
   position: relative;
 }
+
 header .brand-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 200px;
 }
+
 header .brand-logo span {
   font-size: 3rem;
-  padding-left: 0.5rem;
-  color: rgb(33, 63, 125);
+  padding-left: .5rem;
+  color: #213f7d;
   font-weight: 900;
 }
+
 header .search-bar {
   width: 60%;
   margin-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: start;
+  -ms-flex-line-pack: start;
+      align-content: start;
 }
+
 header .search-bar form {
   position: relative;
   width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 header .search-bar form input {
   width: 100%;
   background: #FFFFFF;
   border: 2px solid rgba(0, 0, 0, 0.04);
   border-radius: 8px;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   outline: none;
-  color: rgb(57, 205, 204);
+  color: #39cdcc;
 }
+
 header .search-bar form button {
   position: absolute;
-  padding: 0.5rem 0.8rem;
+  padding: .5rem .8rem;
   right: 0;
   border-radius: 0 8px 8px 0;
-  background: rgb(57, 205, 204);
+  background: #39cdcc;
   outline: none;
-  border: 3px solid rgb(57, 205, 204);
+  border: 3px solid #39cdcc;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 header .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 header .users a {
   margin-right: 40px;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   font-size: 1.5rem;
 }
+
 header .users img {
   margin-right: 25px;
 }
+
 header .users .avatar {
   margin-right: 8px;
   border: 1px solid #fff;
   border-radius: 100%;
 }
+
 header .users select {
   border: none;
   outline: none;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 25px;
+    height: 65px;
+    background: #ffffff;
+    -webkit-box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+            box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+    z-index: 9;
+    position: relative;
+  }
+  header .brand-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80px;
+  }
+  header .brand-logo span {
+    font-size: 3rem;
+    padding-left: .5rem;
+    color: #213f7d;
+    font-weight: 900;
+  }
+  header .search-bar {
+    width: 60%;
+    margin-left: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: start;
+        align-content: start;
+  }
+  header .search-bar form {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .search-bar form input {
+    width: 100%;
+  }
+  header .users a {
+    margin-right: 10px;
+  }
+  header .users img {
+    margin-right: 8px;
+    width: 20px;
+  }
 }
 
 html {
@@ -95,60 +200,82 @@ aside {
   left: 0;
   top: 0;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-left: 50px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: left;
 }
+
 aside select, aside select:focus {
   font-size: 1.3rem;
   border: none;
   outline: none;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   font-weight: 700;
   margin-top: 100px;
   cursor: pointer;
 }
+
 aside h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.3rem;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   margin-top: 30px;
   cursor: pointer;
 }
+
 aside h4.title {
   text-transform: uppercase;
   font-size: 1.3rem;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   font-weight: 700;
   margin-top: 20px;
   cursor: pointer;
 }
+
 aside a {
   text-decoration: none;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.2rem;
-  color: rgb(33, 63, 125);
+  color: #213f7d;
   margin: 8px 0;
   padding-left: 8px;
   cursor: pointer;
 }
+
 aside p:hover, aside p:focus {
   background-color: rgba(136, 136, 255, 0.6);
   border-radius: 5px;
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
   height: auto;
   min-height: 100vh;
-}/*# sourceMappingURL=user'sdashboard.css.map */
+}
+/*# sourceMappingURL=user'sdashboard.css.map */

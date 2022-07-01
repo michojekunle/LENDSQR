@@ -68,6 +68,10 @@ header .search-bar form input {
   color: #39cdcc;
 }
 
+header .search-bar form input:focus {
+  border-color: #39cdcc;
+}
+
 header .search-bar form button {
   position: absolute;
   padding: .5rem .8rem;
@@ -127,20 +131,9 @@ header .users select {
     font-size: 50%;
   }
   header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 0 25px;
     height: 65px;
-    background: #ffffff;
-    -webkit-box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
-            box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
-    z-index: 9;
-    position: relative;
   }
   header .brand-logo {
     display: -webkit-box;
@@ -161,7 +154,7 @@ header .users select {
     font-weight: 900;
   }
   header .search-bar {
-    width: 60%;
+    width: 40%;
     margin-left: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -169,18 +162,19 @@ header .users select {
     -ms-flex-line-pack: start;
         align-content: start;
   }
-  header .search-bar form {
-    position: relative;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  header .search-bar input {
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    padding: .3rem 1rem;
+    font-size: .8rem;
   }
-  header .search-bar form input {
-    width: 100%;
+  header .search-bar button {
+    position: absolute;
+    padding: .3rem .5rem;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    border: 3px solid #39cdcc;
   }
   header .users a {
     margin-right: 10px;

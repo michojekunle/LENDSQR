@@ -2,5 +2,72 @@
 
 //initializing color variables 
 $color--1: rgba(33, 63, 125, 1);
-$color--: #fff;
+$color--2: #fff;
 
+
+//general styles
+html {
+    font-size: 62.5%;
+}
+
+//styling the left nav.
+aside {
+    width: 250px;
+    background: $color--2;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    // height: auto;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+    text-align: left;
+
+    select, select:focus {
+        font-size: 1.3rem;
+        border: none;
+        outline: none;
+        color: $color--1;
+        font-weight: 700;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+    h5 {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        color: $color--1;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    h4.title {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: $color--1;
+        font-weight: 700;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color--1;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: $color--1;
+        margin: 8px 0;
+        padding-left: 8px;
+        cursor: pointer;
+    }
+
+    p:hover, p:focus {
+        background-color: rgba(136, 136, 255, .6);
+        border-radius: 5px;
+    }
+}

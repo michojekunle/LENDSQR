@@ -16,6 +16,8 @@ header {
     height: 75px;
     background:$color--3;
     box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+    z-index: 9;
+    position: relative;
 
     .brand-logo {
         display: flex;
@@ -47,6 +49,7 @@ header {
                 border-radius: 8px;
                 padding: .5rem 1rem;
                 outline: none;
+                color: $color--1;
             }
 
             button {

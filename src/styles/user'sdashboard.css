@@ -149,17 +149,20 @@ header .users select {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 80px;
+    width: auto;
+  }
+  header .brand-logo img {
+    width: 10px;
   }
   header .brand-logo span {
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding-left: .5rem;
     color: #213f7d;
     font-weight: 900;
   }
   header .search-bar {
     width: 60%;
-    margin-left: 4rem;
+    margin-left: 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -181,6 +184,10 @@ header .users select {
   }
   header .users a {
     margin-right: 10px;
+    font-size: 1rem;
+  }
+  header .users img.bell {
+    width: 8px;
   }
   header .users img {
     margin-right: 8px;

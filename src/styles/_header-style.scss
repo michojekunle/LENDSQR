@@ -114,9 +114,13 @@ header {
         .brand-logo {
             display: flex;
             align-items: center;
-            width:80px;
+            width:auto;
+
+            img {
+                width: 10px;
+            }
             span {
-                font-size: 3rem;
+                font-size: 1.5rem;
                 padding-left: .5rem;
                 color: rgba(33, 63, 125, 1);
                 font-weight: 900;
@@ -125,7 +129,7 @@ header {
     
         .search-bar {
             width:60%;
-            margin-left: 4rem;
+            margin-left: 1rem;
             display: flex;
             align-content: start;
     
@@ -144,8 +148,13 @@ header {
         .users {
             a {
                 margin-right: 10px;
+                font-size: 1rem;
             }
     
+            img.bell {
+                width:8px;
+            }
+
             img {
                 margin-right: 8px;
                 width:25px;

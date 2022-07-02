@@ -4,7 +4,6 @@
 $color--1: rgba(33, 63, 125, 1);
 $color--2: #fff;
 
-
 //general styles
 html {
     font-size: 62.5%;
@@ -12,27 +11,28 @@ html {
 
 //styling the left nav.
 aside {
+    margin-top: 80px;
     width: 250px;
     background: $color--2;
     position: absolute;
     z-index: 0;
     left: 0;
     top: 0;
-    // height: auto;
-    min-height:100vh;
+    height:auto;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
     justify-content: center;
     text-align: left;
-
+    overflow-y: scroll;
     select, select:focus {
         font-size: 1.3rem;
         border: none;
         outline: none;
         color: $color--1;
         font-weight: 700;
-        margin-top: 100px;
+        margin-top: 30px;
         cursor: pointer;
     }
 
@@ -50,7 +50,6 @@ aside {
         font-size: 1.3rem;
         color: $color--1;
         font-weight: 700;
-        margin-top: 20px;
         cursor: pointer;
     }
 
@@ -70,4 +69,18 @@ aside {
         background-color: rgba(136, 136, 255, .6);
         border-radius: 5px;
     }
+}
+
+aside::-webkit-scrollbar {
+    width: .4em;
+  }
+   
+  aside::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+   
+  aside::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    opacity: .2;
 }

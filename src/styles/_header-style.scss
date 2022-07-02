@@ -52,6 +52,10 @@ header {
                 color: $color--1;
             }
 
+            input:focus {
+                border-color: $color--1;
+            }
+
             button {
                 position: absolute;
                 padding: .5rem .8rem;
@@ -93,5 +97,71 @@ header {
             font-size: 1.5rem;
         }
     }
-
 };
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 50%;
+    }
+    
+    header {
+        width:100%;
+        padding: 0 25px;
+        height: 65px;
+    
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            width:auto;
+
+            img {
+                width: 10px;
+            }
+            span {
+                font-size: 1.5rem;
+                padding-left: .5rem;
+                color: rgba(33, 63, 125, 1);
+                font-weight: 900;
+            }
+        }
+    
+        .search-bar {
+            width:40%;
+            margin-left: 1rem;
+            display: flex;
+            align-content: start;
+    
+            input {
+                width: 50%;
+                border: 1px solid rgba(0, 0, 0, 0.04);
+                border-radius: 5px;
+                padding: .3rem 1rem;
+                font-size: .8rem;
+            }
+
+            button {
+                position: absolute;
+                padding: .3rem .5rem;
+                right: 0;
+                border-radius: 0 5px 5px 0;
+                border: 3px solid $color--1;
+            }
+        }
+    
+        .users {
+            a {
+                margin-right: 10px;
+                font-size: 1rem;
+            }
+    
+            img.bell {
+                width:8px;
+            }
+
+            img {
+                margin-right: 8px;
+                width:25px;
+           }
+        };   
+    }
+}

@@ -10,10 +10,9 @@ html {
     font-size: 62.5%;
 }
 
-// body {
-//     max-height: 100vh;
-//     // position: relative;
-// }
+body {
+    max-height: 100vh;
+}
 
 //styling the left nav.
 aside {
@@ -28,9 +27,10 @@ aside {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
+    padding-bottom: 30px;
     justify-content: center;
     text-align: left;
-
+    // overflow-y: scroll;
     select, select:focus {
         font-size: 1.3rem;
         border: none;
@@ -78,7 +78,6 @@ aside {
         border-radius: 5px;
     }
 
-    overflow-y: scroll;
 }
 
 aside::-webkit-scrollbar {

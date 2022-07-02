@@ -4,9 +4,14 @@
 $color--1: rgba(33, 63, 125, 1);
 $color--2: #fff;
 
+
 //general styles
 html {
     font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
 }
 
 //styling the left nav.

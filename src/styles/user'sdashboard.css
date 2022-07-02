@@ -8,11 +8,13 @@ header {
   width: 100%;
   align-items: center;
   padding: 0 25px;
-  height: 75px;
+  height: 20%;
+  min-height: 65px;
+  max-height: 80px;
   background: #ffffff;
   box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
   z-index: 9;
-  position: relative;
+  position: absolute;
 }
 header .brand-logo {
   display: flex;
@@ -146,20 +148,15 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  height: 100vh;
-}
-
 aside {
-  margin-top: 80px;
   width: 250px;
   background: #fff;
   position: absolute;
+  height: 100%;
   z-index: 0;
   left: 0;
-  top: 0;
-  height: auto;
-  padding-bottom: 30px;
+  top: 80px;
+  padding: 10px 0;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
@@ -173,7 +170,7 @@ aside select, aside select:focus {
   outline: none;
   color: rgb(33, 63, 125);
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 20px;
   cursor: pointer;
 }
 aside h5 {
@@ -181,7 +178,8 @@ aside h5 {
   align-items: center;
   font-size: 1.3rem;
   color: rgb(33, 63, 125);
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 aside h4.title {
@@ -190,6 +188,8 @@ aside h4.title {
   color: rgb(33, 63, 125);
   font-weight: 700;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 4px;
 }
 aside a {
   text-decoration: none;
@@ -198,7 +198,7 @@ aside a {
   align-items: center;
   font-size: 1.2rem;
   color: rgb(33, 63, 125);
-  margin: 8px 0;
+  margin: 5px 0;
   padding-left: 8px;
   cursor: pointer;
 }
@@ -219,15 +219,11 @@ aside::-webkit-scrollbar-track {
 aside::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   opacity: 0.2;
+  border-radius: 8px;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   font-family: "Nunito", sans-serif;
-}
-
-body {
-  height: auto;
-  min-height: 100vh;
 }/*# sourceMappingURL=user'sdashboard.css.map */

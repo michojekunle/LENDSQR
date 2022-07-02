@@ -226,4 +226,8 @@ aside::-webkit-scrollbar-thumb {
   box-sizing: border-box;
   margin: 0;
   font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100vh;
 }/*# sourceMappingURL=user'sdashboard.css.map */
